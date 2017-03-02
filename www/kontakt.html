@@ -1,0 +1,460 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Stolařství Siwy - kontakt</title>
+    <meta charset="UTF-8">
+    <!-- meta -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- meta -->
+
+    <!-- OPEN GRAPH -->
+    <meta property="og:title" content="Truhlářství a stolařství Siwy" />
+    <meta property="og:type" content="website" />
+    <meta property="og:description" content="Truhlářské a stolařské práce v regionu Moravskoslezského kraje" />
+    <meta property="og:site_name" content="Stolařství Siwy" />
+    <meta property="og:url" content="http://clipptic.com/kuba" />
+    <meta property="og:image" content="http://clipptic.com/kuba/images/logo-two.png" />
+
+    <!-- TWITTER -->
+
+    <meta name="twitter:card" content="photo" />
+    <meta name="twitter:site" content="@stolarstwisiwy" />
+    <meta name="twitter:title" content="Truhlářství a stolařství Siwy" />
+    <meta name="twitter:image:src" content="http://clipptic.com/kuba/images/logo-two.png" />
+
+
+    <!-- styles -->
+    <script type="text/javascript">
+        WebFontConfig = {
+            google: { families: [ 'Lora:400,700:latin,latin-ext' ] }
+        };
+        (function() {
+            var wf = document.createElement('script');
+            wf.src = 'https://ajax.googleapis.com/ajax/libs/webfont/1/webfont.js';
+            wf.type = 'text/javascript';
+            wf.async = 'true';
+            var s = document.getElementsByTagName('script')[0];
+            s.parentNode.insertBefore(wf, s);
+        })(); </script>
+
+    <script type="text/javascript">
+        WebFontConfig = {
+            google: { families: [ 'Playfair+Display:400,700,900:latin,latin-ext' ] }
+        };
+        (function() {
+            var wf = document.createElement('script');
+            wf.src = 'https://ajax.googleapis.com/ajax/libs/webfont/1/webfont.js';
+            wf.type = 'text/javascript';
+            wf.async = 'true';
+            var s = document.getElementsByTagName('script')[0];
+            s.parentNode.insertBefore(wf, s);
+        })(); </script>
+
+    <link href="./css/main.min.css" rel="stylesheet">
+    <link rel="author" href="https://www.linkedin.com/in/jakub-bocek-3313a2a1"/>
+    <!-- styles -->
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+
+</head>
+
+<body>
+
+<header>
+    <div class="header">
+        <div class="container-fluid ">
+
+            <div class="row">
+                <div class="col-sm-2">
+                    <a href="index.html" class="header__logo header__logo--two " rel="homepage"></a>
+                </div>
+                <div class="col-sm-10">
+                    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                        <div class="overlay" id="overlay">
+                            <nav>
+                                <ul class="header__nav">
+                                    <li><a class=" first" href="index.html">Úvod</a></li>
+                                    <li><a href="">Výroba nábytku na&nbsp;míru</a></li>
+                                    <li><a href="">Nábytek z&nbsp;masivu</a></li>
+                                    <li><a href=""> Dřevěné schody </a></li>
+                                    <li><a href="reference.html">Reference </a></li>
+                                    <li><a class="active last" href="kontakt.html">Kontakt</a></li>
+                                </ul>
+                            </nav>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+                    data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar f-line"></span>
+                <span class="icon-bar s-line"></span>
+                <span class="icon-bar t-line"></span>
+            </button>
+
+
+        </div>
+    </div>
+</header>
+
+
+<main>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-5 col-mobile col-mobile--kontakt">
+                <div class="fixed fixed--kontakt">
+                    <div class=" bg-hp--kontakt">
+                        <div class="hidden-xs hidden-sm" style='overflow:hidden;height:100%;'>
+                        <div id='map'></div>
+                    </div>
+
+                        <script>
+                            function initMap() {
+
+                                var styledMapType = new google.maps.StyledMapType(
+                                        [
+                                            {
+                                                "featureType": "landscape.man_made",
+                                                "elementType": "geometry.fill",
+                                                "stylers": [
+                                                    {
+                                                        "lightness": "-5"
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "featureType": "landscape.man_made",
+                                                "elementType": "labels.text.fill",
+                                                "stylers": [
+                                                    {
+                                                        "saturation": "21"
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "featureType": "landscape.natural",
+                                                "elementType": "geometry.fill",
+                                                "stylers": [
+                                                    {
+                                                        "saturation": "1"
+                                                    },
+                                                    {
+                                                        "color": "#eae2d3"
+                                                    },
+                                                    {
+                                                        "lightness": "20"
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "featureType": "road.highway",
+                                                "elementType": "labels.icon",
+                                                "stylers": [
+                                                    {
+                                                        "saturation": "39"
+                                                    },
+                                                    {
+                                                        "lightness": "7"
+                                                    },
+                                                    {
+                                                        "gamma": "1.06"
+                                                    },
+                                                    {
+                                                        "visibility": "on"
+                                                    },
+                                                    {
+                                                        "hue": "#00b8ff"
+                                                    },
+                                                    {
+                                                        "weight": "1.44"
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "featureType": "road.arterial",
+                                                "elementType": "geometry.stroke",
+                                                "stylers": [
+                                                    {
+                                                        "visibility": "on"
+                                                    },
+                                                    {
+                                                        "lightness": "100"
+                                                    },
+                                                    {
+                                                        "weight": "1.16"
+                                                    },
+                                                    {
+                                                        "color": "#e0e0e0"
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "featureType": "road.arterial",
+                                                "elementType": "labels.icon",
+                                                "stylers": [
+                                                    {
+                                                        "saturation": "-16"
+                                                    },
+                                                    {
+                                                        "lightness": "28"
+                                                    },
+                                                    {
+                                                        "gamma": "0.87"
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "featureType": "water",
+                                                "elementType": "geometry.fill",
+                                                "stylers": [
+                                                    {
+                                                        "visibility": "on"
+                                                    },
+                                                    {
+                                                        "saturation": "-75"
+                                                    },
+                                                    {
+                                                        "lightness": "-15"
+                                                    },
+                                                    {
+                                                        "gamma": "1.35"
+                                                    },
+                                                    {
+                                                        "weight": "1.45"
+                                                    },
+                                                    {
+                                                        "hue": "#00dcff"
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "featureType": "water",
+                                                "elementType": "labels.text.fill",
+                                                "stylers": [
+                                                    {
+                                                        "color": "#626262"
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "featureType": "water",
+                                                "elementType": "labels.text.stroke",
+                                                "stylers": [
+                                                    {
+                                                        "saturation": "19"
+                                                    },
+                                                    {
+                                                        "weight": "1.84"
+                                                    }
+                                                ]
+                                            }
+                                        ],
+                                        {name: 'Styled Map'});
+
+                                var map = new google.maps.Map(document.getElementById('map'), {
+                                    center: {lat: 49.67931, lng: 18.56911379999997},
+                                    zoom: 11,
+                                    mapTypeControl: false,
+                                    mapTypeControlOptions: {
+                                        mapTypeIds: ['roadmap', 'satellite', 'hybrid', 'terrain',
+                                            'styled_map']
+                                    }
+                                });
+
+                                map.mapTypes.set('styled_map', styledMapType);
+                                map.setMapTypeId('styled_map');
+
+                                var marker = new google.maps.Marker({
+                                    position: {lat: 49.67931, lng: 18.56911379999997},
+                                    map: map,
+                                    icon: {
+                                        url: 'http://clipptic.com/kuba/images/pin.png',
+                                        scaledSize: new google.maps.Size(12, 12)
+                                    }
+                                });
+
+                                //marker = new google.maps.Marker({map: map,position: new google.maps.LatLng(49.67931,18.56911379999997)}, {icon: image});
+
+                                infowindow = new google.maps.InfoWindow({content:'<strong>PROVOZOVNA</strong><br>Střítež 789, 739 59<br>'});
+                                google.maps.event.addListener(marker, 'click', function(){infowindow.open(map,marker);});infowindow.open(map,marker);
+
+                            }
+
+
+                        </script>
+
+                        <script async defer
+                                src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBZCkUkD6W2wa7p2MtOOKOJTraIz5PPV8E&callback=initMap">
+                        </script>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-md-offset-1">
+                <div class="fadeout hidden-sm hidden-xs"></div>
+                <h1 class="title-t1 title-t1--kontakt">
+                    Kontakt
+                </h1>
+                <p class="">Truhlářské a stolařské práce nabízíme v regionu Moravskoslezského kraje, především v
+                    okrese Frýdek-Místek, Třinec nebo Český Těšín. Zakázky lze realizovat i mimo tento region.
+                </p>
+
+                <div class="info-div">
+                    <div class="info-div-first move-sm visible-sm-inline-block visible-xs-inline-block">
+                        <p>Provozovna:</p>
+                    </div>
+
+                    <div class="info-div-second move2-sm visible-sm-inline-block visible-xs-inline-block">
+                        <p> Střítež 789, 739 59</p>
+                    </div>
+                    <br>
+
+                    <div class="info-div-first">
+                        <p>Telefon:</p>
+                    </div>
+
+                    <div class="info-div-second">
+                        <p><a class="" href="tel:+420737424214">+420&nbsp;737&nbsp;424&nbsp;214</a></p>
+                    </div>
+                    <br>
+                    <div class="info-div-first ">
+                        <p>Email:</p>
+                    </div>
+
+                    <div class="info-div-second move">
+                        <p><a href="mailto:info@truhlarstvi-siwy-fm.cz"><u>info@truhlarstvi-siwy-fm.cz</u></a></p>
+                    </div>
+                </div>
+
+                <div class="info-div info-div--two">
+                    <div class="info-div-first ">
+                        <p>IČ:</p>
+                    </div>
+
+                    <div class="info-div-second move move2">
+                        <p>14610248</p>
+                    </div>
+                    <br>
+
+                    <div class="info-div-first">
+                        <p>DIČ:</p>
+                    </div>
+
+                    <div class="info-div-second move3">
+                        <p>CZ14610248</p>
+                    </div>
+                </div>
+
+
+
+                <h2 class="title-t2">
+                    Napište nám, ozveme se vám zpět
+                </h2>
+
+                <form  action="" class="material">
+
+                    <div class="row">
+                        <div class="col-sm-5">
+                            <div class="input-field">
+                                <input  id="first_name" type="text" class="validate"  required>
+
+                                <label for="first_name">Vaše jméno</label>
+                            </div>
+
+
+
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-5">
+
+                            <div class="input-field ">
+                                <input id="tel" type="tel" class="validate" required>
+
+                                <label for="tel">Telefonní číslo:</label>
+                            </div>
+
+                        </div>
+
+                        <div class="col-sm-5">
+                            <div class="input-field ">
+                                <input  id="email" type="email" class="validate"  >
+
+                                <label for="email" data-error="Chybný email" >Váš email (dobrovolný)</label>
+                            </div>
+                        </div>
+                    </div>
+
+                        <div class="row">
+                            <div class="col-sm-10">
+                                <div class="input-field ">
+                                    <input id="text" type="text"  class="validate" required>
+
+                                    <label for="text">Vaše zpráva či dotaz</label>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <button type="submit" class="button"><span>Odeslat zprávu</span></button>
+
+
+
+
+                </form>
+
+
+
+
+                <p class="copyright">©2016 Truhlářství a stolařství Siwý.  Telefon: <a href="tel:+420737424214">+420&nbsp;737&nbsp;424&nbsp;214</a></p>
+
+            </div>
+        </div>
+    </div>
+</main>
+
+<footer>
+    <div class="footer">
+        <div class="footer__contact text-center">
+
+        </div>
+        <div class="footer__copyright text-center">
+
+        </div>
+    </div>
+
+</footer>
+
+<script src="js/main.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/js/materialize.min.js"></script>
+
+<script>
+    $("form").submit(function(e) {
+
+        var ref = $(this).find("[required]");
+
+        $(ref).each(function(){
+            if ( $(this).val() == '' )
+            {
+                alert("Povinná pole musí být vyplněna");
+
+                $(this).focus();
+
+                e.preventDefault();
+                return false;
+            }
+        });  return true;
+    });
+</script>
+</body>
+
+</html>
+

@@ -1,0 +1,55 @@
+.button{
+  background: none;
+  span{
+    position: relative;
+    top: -1px;
+  }
+  .smoth;
+  display: inline-block;
+  font-size: 20px;
+  @media @xs{
+    font-size: 15px;
+  }
+
+  line-height: 61px;
+  padding: 0 22px;
+  color: @brown;
+  border:2px solid @brown;
+  margin-top: 19px;
+
+  &:after{
+    content: '';
+    display: inline-block;
+    background: url(../images/button-arrrow.png) no-repeat;
+    margin-left: 11px;
+    width: 25px;
+    height: 11px;
+    vertical-align: middle;
+    position: relative;
+    top: -2px;
+  }
+
+  &:hover{
+    color: @black;
+    border:2px solid @black;
+    text-decoration: none;
+    &:after{
+      content: '';
+      display: inline-block;
+      background: url(../images/button-arrrow-hover.png) no-repeat;
+      width: 25px;
+      height: 11px;
+      vertical-align: middle;
+      position: relative;
+      top: -2px;
+    }
+
+
+  }
+}
+
+
+.button--reference{
+  margin-top: 96px;
+  margin-left: 5px;
+}

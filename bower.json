@@ -1,0 +1,21 @@
+{
+  "name": "new",
+  "description": "",
+  "main": "index.html",
+  "authors": [
+    "Jakub Bocek"
+  ],
+  "license": "MIT",
+  "homepage": "index.html",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "2.1.4",
+    "bootstrap": "^3.3.7"
+  }
+}

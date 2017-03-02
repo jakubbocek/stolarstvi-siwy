@@ -1,0 +1,194 @@
+.absolute{
+
+}
+
+.title-t1{
+  font-size: 60px;
+  line-height: 72px;
+  margin-bottom: 36px;
+  margin-top: 130px;
+
+  @media @sm,@xs{
+
+    position: absolute;
+    top: -250px;
+    display: block !important;
+    padding: 0 35px;
+    text-align: center;
+    transform: translateY(-50%);
+    width: 94%;
+    color: @white;
+
+  }
+
+  @media @sm{
+    margin-top: 30px;
+  }
+
+
+  @media @xs{
+    margin: 0;
+    font-size: 43px;
+    line-height: 55px;
+  }
+}
+
+.title-t1--kontakt{
+  @media @sm,@xs{
+    //color: @black;
+    top: -226px;
+  }
+
+}
+
+.title-t1--reference{
+  margin-left: 5px;
+
+
+  @media @sm,@xs{
+    margin-bottom: 36px;
+    position: static;
+    top: 0;
+    display: block;
+    padding: 0;
+    text-align: left;
+    transform: translateY(0%);
+    width: auto;
+    color: @black;
+
+  }
+}
+
+.title-t2{
+
+
+  max-width: 715px;
+  color: @brown;
+  font-size: 30px;
+  line-height: 57px;
+  margin-top: 52px;
+  margin-bottom: 28px;
+
+  @media @xs{
+    font-size: 25px;
+    line-height: 36px;
+  }
+}
+
+.title-t2--reference{
+  margin-left: 5px;
+}
+p{
+
+
+  font-size: 20px;
+  line-height: 36px;
+  margin-top: 0;
+  margin-bottom: 37px;
+  max-width: 715px;
+  color: #303030;
+}
+.p--reference{
+  margin-left: 5px;
+
+}
+
+.link{
+  .smoth;
+  text-decoration: underline;
+  color: @black;
+  &:hover{
+    color: @brown;
+  }
+}
+
+blockquote{
+  &:before{
+    content: '';
+    border-left: 1px solid @brown;
+    position: absolute;
+    height: 90%;
+    left: 0;
+    top: 5%;
+
+    @media @xs{
+      height: 95%;
+      left: 0;
+      top: 3%;
+    }
+  }
+  position: relative;
+  @media @min-md{
+    left: -27px;
+  }
+  padding: 0 30px;
+  margin: 0 0 20px;
+  margin-top: 97px;
+  line-height: 46px;
+  font-size: 30px;
+  border-left: none;
+  max-width: 715px;
+  font-style: italic;
+  color: #303030;
+
+  div{
+    font-size: 20px;
+    color: #7f7e7e;
+    font-style: normal;
+    line-height: 42px;
+    margin-top: 4px;
+  }
+}
+.blockquote--text-page{
+  margin-bottom: 50px;
+}
+
+
+
+
+.ul {
+  list-style: none;
+  margin:0;
+  font-size: 20px;
+  li{
+    line-height: 36px;
+    display: flex;
+  }
+
+  li:before {
+    content: "• ";
+    color: @brown;
+    margin-right: 34px;
+  }
+
+}
+
+.ol{
+  margin:0;
+  font-size: 20px;
+  padding-left: 20px;
+
+  li{
+    padding-left: 26px;
+    line-height: 36px;
+  }
+}
+
+.desc-img{
+  line-height: 54px;
+  color: #7f7e7e;
+  font-size: 17px;
+  font-style: italic;
+
+  &:after{
+    content: '';
+    border-bottom: 1px solid #eaeaea;
+    width: 125px;
+    height: 1px;
+    display: block;
+  }
+
+}
+
+
+

@@ -1,0 +1,30 @@
+{
+  "name": "Project",
+  "description": "",
+  "version": "1.0.0",
+  "author": "Jakub Bocek",
+  "homepage": "",
+  "main": "index.html",
+  "private": true,
+  "devDependencies": {
+    "grunt": "~0.4.1",
+    "grunt-autoprefixer": "*",
+    "grunt-banner": "*",
+    "grunt-contrib-concat": "*",
+    "grunt-contrib-cssmin": "*",
+    "grunt-contrib-jshint": "*",
+    "grunt-contrib-less": "*",
+    "grunt-contrib-nodeunit": "*",
+    "grunt-contrib-uglify": "*",
+    "grunt-contrib-watch": "~0.5.1",
+    "grunt-express": "~1.0.0-beta2",
+    "grunt-ftp-deploy": "*",
+    "grunt-open": "~0.2.1",
+    "grunt-spritesmith": "*",
+    "grunt-uncss": "^0.5.1",
+    "grunt-update": "^0.2.3",
+    "jit-grunt": "^0.9.1",
+    "matchdep": "~0.1.2",
+    "time-grunt": "^1.1.0"
+  }
+}
